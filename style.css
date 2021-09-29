@@ -1,0 +1,26 @@
+
+.navbar{
+    width: 30%;
+    display:flex;
+    list-style-type:none;
+    /* justify-content: space-evenly; */
+    align-content: flex-end;
+}
+
+.intro{
+    margin-left: 6rem;
+}
+a:focus{
+    color:pink
+}
+.headingAboutMe{
+    width: 100%;
+   text-align: center;
+   background-color: #b5d0eb;
+   padding: 4rem;
+    color: white;
+}
+.profileImage{
+    height: 15rem;
+    border-radius: 100%;
+}
