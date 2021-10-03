@@ -1,6 +1,6 @@
 :root{
     --MyBlue:#86b2de;
-    --LightMyBlue:#b5d0eb;
+    --LightMyBlue:#c7daee;
     --fontColor: #24305e;
 }
 *{
@@ -17,6 +17,7 @@
     padding-left:1em;
     margin-top: 3em;
     margin-right: 5em; 
+    text-decoration: none;
 }
 a{
     color:var(--fontColor);
@@ -41,6 +42,7 @@ span{
    padding: 4em;
     color: var(--fontColor);
     font-size: 1.25em;
+    /* border-top-left-radius: 20rem; */
 }
 .profileImage{
     height: 15em;
@@ -107,3 +109,17 @@ span{
     margin-top: 3em;
     margin-right: 1em;  
 }
+.Back{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;  
+}
+
+/* media query
+@include media-breakpoint-up(md) {
+    .Imgradius{
+
+        width:100%;
+        flex-direction:
+    }
+ } */
