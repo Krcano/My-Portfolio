@@ -1,125 +1,120 @@
-:root{
-    --MyBlue:#86b2de;
-    --LightMyBlue:#c7daee;
-    --fontColor: #24305e;
+:root {
+  --MyBlue: #86b2de;
+  --LightMyBlue: #c7daee;
+  --fontColor: #24305e;
 }
-*{
-    /* border: red 1px solid; */
-    /* box-sizing: border-box; */
+* {
+  /* border: red 1px solid; */
+  /* box-sizing: border-box; */
 }
-.navbar{
-    display:flex;
-    justify-content: flex-end;
-    margin-left: 5em;
-    align-items: flex-start;
+.navbar {
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  margin-left: 5em;
+  align-items: flex-start;
 }
-.navbar a{
-    padding-left:1em;
-    margin-top: 3em;
-    margin-right: 5em; 
-    text-decoration: none;
+.navbar a {
+  padding-left: 1em;
+  margin-top: 3em;
+  margin-right: 5em;
+  text-decoration: none;
 }
-a{
-    color:var(--fontColor);
+a {
+  color: var(--fontColor);
 }
-a:hover{
-    color:var(--MyBlue);
+a:hover {
+  color: var(--MyBlue);
 }
-span{
-    color:var(--MyBlue);
-}
-
-.intro{
-    margin-left: 4em;
-    margin-bottom: 1em;
-    color: var(--fontColor);
+span {
+  color: var(--MyBlue);
 }
 
-.headingAboutMe{
-    width: 100%;
-   text-align: center;
-   background-color: var(--LightMyBlue);
-   padding: 4em;
-    color: var(--fontColor);
-    font-size: 1.25em;
-    /* border-top-left-radius: 20rem; */
-}
-.profileImage{
-    height: 15em;
-    border-radius: 100%;
-}
-.mySkills{
-    width: 100%;
-   text-align: center;
-   padding: 4em;
-    color: var(--fontColor);
-    
-    font-size: 1.25em;
-}
-.skillListContainer{
-    display: flex;
-    justify-content:space-between;
-    width:90%;
-    color: var(--fontColor);
-  
-    
-}
-.skillList{
-    margin-top: 3em;
-    list-style-type:  none;
-    /* color: #b5d0eb; */
-    
-} 
-.skillList::before{
- content: "❖";
- color: var(--MyBlue);
- padding: 2em;
-}
-.work{
-    width: 100%;
-    text-align: center;
-    padding: 4em;
-     color: var(--fontColor);
-     font-size: 1.25em;
-    
-}
-.borderColor{
-    border: 3px solid var(--fontColor);
-    border-radius: 20%;
-    
-}
-.Imgradius{
-    border-radius: 19%;
-    
-    
-}
-.Imgradius:hover{
-    opacity: .7;
+.intro {
+  margin-left: 4em;
+  margin-bottom: 1em;
+  color: var(--fontColor);
 }
 
-.contacts{
-     display: flex;
-    margin-top: 8em;
-    padding-right: 10em;
-    justify-content: flex-end; 
-
+.headingAboutMe {
+  text-align: center;
+  background-color: var(--LightMyBlue);
+  padding: 4em;
+  color: var(--fontColor);
+  font-size: 1.25em;
+  /* border-top-left-radius: 20rem; */
 }
-.contactList{
-    padding-left:1em;
-    margin-top: 3em;
-    margin-right: 1em;  
+.profileImage {
+  height: 15em;
+  border-radius: 100%;
 }
-.Back{
-    text-decoration: none;
-    display: flex;
-    justify-content: center;  
+.mySkills {
+  text-align: center;
+  padding: 4em;
+  color: var(--fontColor);
+
+  font-size: 1.25em;
+}
+.skillListContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  color: var(--fontColor);
+}
+.skillList {
+  margin-top: 3em;
+  list-style-type: none;
+}
+.skillList::before {
+  content: "❖";
+  color: var(--MyBlue);
+  padding: 2em;
+}
+.work {
+  /* width: 100%; */
+  text-align: center;
+  padding: 4em;
+  color: var(--fontColor);
+  font-size: 1.25em;
+}
+.workContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.borderColor {
+  border: 3px solid var(--fontColor);
+  border-radius: 20%;
+}
+.Imgradius {
+  border-radius: 20%;
+}
+.Imgradius:hover {
+  opacity: 0.7;
 }
 
-/* media query
-@include media-breakpoint-up(md) {
-    .Imgradius{
+.contacts {
+  display: flex;
+  margin-top: 8em;
+  padding-right: 10em;
+  justify-content: flex-end;
+}
+.contactList {
+  padding-left: 1em;
+  margin-top: 3em;
+  margin-right: 1em;
+}
+.Back {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
 
-        width:100%;
-        flex-direction:
-    }
- } */
+/*media query*/
+/* @media screen and (max-width: 960px) {
+  .skillListContainer {
+  }
+} */
+
