@@ -3,15 +3,10 @@
   --LightMyBlue: #c7daee;
   --fontColor: #24305e;
 }
-* {
-  /* border: red 1px solid; */
-  /* box-sizing: border-box; */
-}
+
 .navbar {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: flex-end;
-  margin-left: 5em;
   align-items: flex-start;
 }
 .navbar a {
@@ -31,7 +26,7 @@ span {
 }
 
 .intro {
-  margin-left: 4em;
+  margin-left: 1em;
   margin-bottom: 1em;
   color: var(--fontColor);
 }
@@ -41,8 +36,7 @@ span {
   background-color: var(--LightMyBlue);
   padding: 4em;
   color: var(--fontColor);
-  font-size: 1.25em;
-  /* border-top-left-radius: 20rem; */
+  font-size: 1.5em;
 }
 .profileImage {
   height: 15em;
@@ -71,7 +65,6 @@ span {
   padding: 2em;
 }
 .work {
-  /* width: 100%; */
   text-align: center;
   padding: 4em;
   color: var(--fontColor);
@@ -113,8 +106,18 @@ span {
 }
 
 /*media query*/
-/* @media screen and (max-width: 960px) {
-  .skillListContainer {
+ @media screen and (max-width: 1100px) {
+  .contacts{
+      justify-content: center;
+      padding-right: 0px;
   }
-} */
+} 
+@media screen and (max-width: 650px) {
+    .navbar{
+        justify-content: center;
+        padding-left: 0em;
+        margin-top: 3em;
+        margin-left: 7em;
+    }
+  } 
 
