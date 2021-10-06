@@ -119,5 +119,9 @@ span {
         margin-top: 3em;
         margin-left: 7em;
     }
+    .skillListContainer{
+        justify-content: center;
+        margin: 0em;
+    }
   } 
 
