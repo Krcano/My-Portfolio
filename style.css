@@ -1,13 +1,18 @@
 :root {
-  --MyBlue: #86b2de;
+  --MyBlue: #86b2defb;
   --LightMyBlue: #c7daee;
   --fontColor: #24305e;
+  --MyTeal:#03305a;
+  --myOrange:#f87e49;
+  /* --MyTeal: */
+  /* #6989a0 */
 }
 
 .navbar {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
+  font-family:'Playfair Display', serif;
 }
 .navbar a {
   padding-left: 1em;
@@ -19,56 +24,71 @@ a {
   color: var(--fontColor);
 }
 a:hover {
-  color: var(--MyBlue);
+  color: var(--myOrange);
 }
 span {
-  color: var(--MyBlue);
+  color: var(--myOrange);
 }
 
 .intro {
   margin-left: 1em;
   margin-bottom: 1em;
   color: var(--fontColor);
+  font-family: 'Playfair Display', serif;
 }
 
 .headingAboutMe {
   text-align: center;
-  background-color: var(--LightMyBlue);
+  background-image:url(./photos/blueGradient.png) ;
+  background-position: bottom center;
   padding: 4em;
-  color: var(--fontColor);
+  color: rgb(255, 255, 255);
   font-size: 1.5em;
+ border-radius: 2em;
+ font-family:'Playfair Display', serif;;
 }
 .profileImage {
   height: 15em;
   border-radius: 100%;
 }
+
 .mySkills {
   text-align: center;
   padding: 4em;
   color: var(--fontColor);
-
+  font-family: 'Playfair Display', serif;
   font-size: 1.25em;
 }
 .skillListContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   color: var(--fontColor);
+  font-family: 'Playfair Display', serif;
 }
 .skillList {
   margin-top: 3em;
   list-style-type: none;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-right: 2em;
 }
 .skillList::before {
   content: "❖";
-  color: var(--MyBlue);
-  padding: 2em;
+  color: var(--myOrange);
+  padding: 1em;
+}
+.skillsP{
+  font-size: 1.25em;
 }
 .work {
   text-align: center;
   padding: 4em;
   color: var(--fontColor);
-  font-size: 1.25em;
+  font-size: 1.2em;
+  font-family: 'Playfair Display', serif;
+  
+
 }
 .workContainer {
   display: flex;
@@ -76,13 +96,14 @@ span {
   flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
+  font-family: 'Playfair Display', serif;
+ 
 }
-.borderColor {
+
+.Imgradius {
   border: 3px solid var(--fontColor);
   border-radius: 20%;
-}
-.Imgradius {
-  border-radius: 20%;
+  margin-bottom: 0em;
 }
 .Imgradius:hover {
   opacity: 0.7;
@@ -103,6 +124,7 @@ span {
   text-decoration: none;
   display: flex;
   justify-content: center;
+  font-family: 'Playfair Display', serif;
 }
 
 /*media query*/
@@ -122,6 +144,11 @@ span {
     .skillListContainer{
         justify-content: center;
         margin: 0em;
+    }
+    .headingAboutMe{
+      background-image: none;
+      background-color: var(--MyTeal);
+      background-position: top center;
     }
   } 
 
