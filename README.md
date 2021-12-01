@@ -10,6 +10,15 @@ I have included a few features from my original portfolio like the navigation ba
 ![screenshot](./photos/portfolio-screenshot.png)
 [livesite](https://krcano.github.io/My-Portfolio/)
 
+## Technologies
+
+| Technologies Used | 
+| ------------------| 
+| JavaScript        |
+| HTML              | 
+| CSS               |
+## License
+
 ## MIT License
 
 Copyright (c) [2021] [Kelly R. Cano]
