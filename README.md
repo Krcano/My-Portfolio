@@ -1,5 +1,5 @@
 # My-Portfolio
-[License: MIT](https://opensource.org/licenses/MIT)
+![License: MIT](https://img.shields.io/badge/License-MIT-success.svg)
 ## Description
 This project is the updated version of my portfolio. My original portfolio used basic HTML and CSS but with this updated version I cleaned up the layout and changed up the color scheme. I also added current work examples and their GitHub repositories to my portfolio instead of the placeholders that were originally there. I also added icons for the ways to contact me or view my work through Github, LinkedIn, Gmail, and phone call. I also added a 'My Skills' section to highlight what I have learned throughout the course. In addition to updating my portfolio I have also been able to update my Github and linkedIn account with my most current information.
 
